@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // routes
-app.route("/api/v1/user", userRouter);
+app.use("/api/v1/users", userRouter);
 
 // db connection
 
