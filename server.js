@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// middleware
+// Uses the express middleware
 
 // routes
 app.use("/api/v1/users", userRouter);
